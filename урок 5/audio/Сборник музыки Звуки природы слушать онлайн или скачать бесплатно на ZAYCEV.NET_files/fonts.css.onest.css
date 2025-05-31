@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:  url(/static/fonts/Onest-Regular.woff) format('woff'), 
+        url(/static/fonts/Onest-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:  url(/static/fonts/Onest-Regular.woff) format('woff'), 
+        url(/static/fonts/Onest-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:  url(/static/fonts/Onest-Medium.woff) format('woff'), 
+        url(/static/fonts/Onest-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:  url(/static/fonts/Onest-Bold.woff) format('woff'), 
+        url(/static/fonts/Onest-Bold.ttf) format('truetype');
+}
+
+

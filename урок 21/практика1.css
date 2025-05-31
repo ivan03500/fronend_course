@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 1600px;
+}
+.allp{
+    background-color: aquamarine;
+    color: black;
+    width: 25%;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 22px;
+}
+.p1:hover{
+    background-color: black;
+    color: white;
+}
+.p2{
+    
+    position: relative;
+    left: 25%;
+    bottom: 40px;
+}
+.p3{
+
+    position: relative;
+    left: 50%;
+    bottom: 80px;
+}
+.p4{
+
+    position: relative;
+    left: 75%;
+    bottom: 120px;
+}
+.div2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 100px;
+    z-index: 1;
+}
+.div2 img{
+    width: 100%;
+    height: 500px;
+}
+.div3{
+    background-color: beige;
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    left: 80%;
+    bottom: 500px;
+}
+.div3 p{
+    position: relative;
+    top: 90px;
+}
+.div3 h3{
+    font-size: 30px;
+    position: relative;
+    top: 80px;
+}
+.div4{
+    background: url(laminat.png);
+    width: 500px;
+    height: 400px;
+
+}
+.div4 p{
+    background-color: darkred;
+    width: 70%;
+    height: 30px;
+    color: white;
+    position: relative;
+    top: 40px;
+    font-size: 18px;
+}
+.div5{
+    background: url(laminat.png);
+    width: 500px;
+    height: 400px;
+
+}
+.div5 p{
+    background-color: darkred;
+    width: 70%;
+    height: 30px;
+    color: white;
+    position: relative;
+    top: 40px;
+    font-size: 18px;
+}
+.div6{
+    background: url(laminat.png);
+    width: 500px;
+    height: 400px;
+
+}
+.div6 p{
+    background-color: darkred;
+    width: 70%;
+    height: 30px;
+    color: white;
+    position: relative;
+    top: 40px;
+    font-size: 18px;
+}
+.div7{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 200px;
+}

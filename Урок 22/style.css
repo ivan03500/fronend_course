@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #242323;
+}
+.site{
+    width: 80%;
+    height: 800px;
+    border: 1px solid white;
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.nav a{
+    display: block;
+    flex: 1;
+    text-align: center;
+    padding: 18px 0;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav a:first-child{
+    background-color: #0095cf;
+}
+.nav a:nth-child(2){
+    background-color: #29af29;
+}
+.nav a:nth-child(3){
+    background-color: #c4c408;
+}
+.nav a:nth-child(4){
+    background-color: #2929af;
+}
+.nav a:nth-child(5){
+    background-color: #af2929;
+}
+.nav a:last-child{
+    background-color: #af2979;
+}
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+.aside{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section{
+    flex: 1;
+    border: 1px solid white;
+    height: auto;
+
+}
+.aside a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 35px;
+    color: #fff;
+    text-decoration: none;
+    background-color: red;
+}
+.slider{
+    width: 100%;
+    height: 350px;
+    border: 1px solid white;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slider_wrapper{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.slider_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.slider_content_text{
+    text-align: center;
+    width: 70%;
+}
+.slider_content_text p{
+    margin: 20px;
+}
+.slider_content_text a{
+    width: max-content;
+    display: block;
+    padding: 16px 20px;
+    background-color: #29af29;
+    color: #fff;
+    margin: auto;
+    text-decoration: none;
+}
+.slider_content i{
+    font-size: 30px;
+    font-weight: bold;
+}
+.slider_content i:hover{
+    background-color: rgba(0, 0, 0, 0.464);
+    cursor: pointer;
+}
+.text{
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.text1{
+    background-color: #c4c408;
+    padding: 10px;
+}
+.text2{
+    background-color: #0095cf; 
+    padding: 10px;
+}
+.final{
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.final_text{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: cursive ;
+}
+.final1{
+    background-color: #29af29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+.final1 i{
+    font-size: 80px;
+    position: relative;
+    left: 200px;
+    margin-bottom: 120px;
+}
+.final1 p{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: 40px;
+}
+.final2{
+    background-color: #2929af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+.final2 i{
+    font-size: 80px;
+    position: relative;
+    left: 240px;
+    margin-bottom: 120px;
+}
+.final2 p{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: 40px;
+}
+.final3{
+    background-color: #af2929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+.final3 i{
+    font-size: 80px;
+    position: relative;
+    left: 200px;
+    margin-bottom: 120px;
+}
+.final3 p{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: 40px;
+}

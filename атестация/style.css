@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    font-size: 30px;
+}
+.text h1{
+    color: rgb(69, 74, 134);
+    position: relative;
+    bottom: 10px;
+}
+.text i{
+    margin-left: -100px;
+    font-size: 50px;
+    position: relative;
+    top: 45px;
+}
+.a{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.a a{
+    color: gray;
+    text-decoration: none;
+}
+.a a:hover{
+    color: rgb(131, 70, 70);
+}
+.body{
+    background-color: aqua;
+}
+.main{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    align-items: center;
+}
+.main img{
+    width: 500px;
+    position: relative;
+    right: 300px;
+}
+.text1{
+    font-size: 25px;
+}
+.text1 h2{
+    margin-bottom: 20px;
+    color: rgb(69, 74, 134);
+}
+.text1 p{
+    color: darkgray;
+}
+.button{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 100px;
+    left: 390px;
+
+}
+.button1{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(69, 74, 134);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+}
+.button2{
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+}
+.main2{
+    position: relative;
+    bottom: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.cart1{
+    width: 25%;
+    height: 500px;
+    background-color: brown;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart1 i{
+    font-size: 150px;
+    position: relative;
+    bottom: 10px;
+    left: 150px;
+
+}
+.cart1 h3{
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+    right: 80px;
+}
+.cart2{
+    width: 25%;
+    height: 500px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart2 i{
+    font-size: 150px;
+    position: relative;
+    bottom: 10px;
+    left: 100px;
+
+}
+.cart2 h3{
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+    right: 80px;
+}
+.cart3{
+    width: 25%;
+    height: 500px;
+    background-color: brown;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart3 i{
+    font-size: 150px;
+    position: relative;
+    bottom: 10px;
+    left: 100px;
+
+}
+.cart3 h3{
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+    right: 80px;
+}
+.cart4{
+    width: 25%;
+    height: 500px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart4 i{
+    font-size: 150px;
+    position: relative;
+    bottom: 10px;
+    left: 100px;
+
+}
+.cart4 h3{
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+    right: 80px;
+}
+.main3{
+    margin-top: 100px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+
+}
+.main3 img{
+    width: 500px;
+    position: relative;
+    right: 300px;
+    bottom: 130px;
+}
+.text2{
+    font-size: 25px;
+}
+.text h2{
+    margin-bottom: 20px;
+    color: rgb(69, 74, 134);
+}
+.text2 p{
+    color: darkgray;
+    margin-bottom: 50px;
+}

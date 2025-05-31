@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cart{
+    width: 600px;
+    height: 800px;
+    background-color: white;
+    position: relative;
+    left: 700px;
+    top: 100px;
+    box-shadow: 75px 75px 75px 75px rgba(34, 60, 80, 0.22);
+    border-radius: 50px;
+}
+.cart_content img{
+    width: 400px;
+    border-radius: 30px;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+h3{
+    font-size: 30px;
+    position: relative;
+    left: 45px;
+    top: 10px;
+}
+p{
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 45px;
+    margin-bottom: 20px;
+}
+.cart_price{
+    font-size: 25px;
+}

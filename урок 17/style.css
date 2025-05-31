@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block1, .block2, .block3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.block1{
+    background: url(laminat.png);
+    position: relative;
+    top: 100px;
+    left: 50px;
+    z-index: 3;
+}
+.block2{
+    background-color:green;
+    position: relative;
+    left: 220px;
+    z-index: 1;
+}
+.block3{
+    background-color: blue;
+    position: relative;
+    bottom: 140px;
+    left: 80px;
+    z-index: 2;
+}

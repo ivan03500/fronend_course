@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid{
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 50px auto;
+}
+.grid-item{
+    height: 150px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s; /*Продолжительность анимации*/
+}
+.item1:hover{
+    background-color: blue;
+    transform: translateX(100px);/*Смещение по оси Х*/
+}
+.item2:hover{
+    background-color: red;
+    transform: translateY(100px);/*Смещение по оси Y*/
+}
+.item3:hover{
+    background-color: yellow;
+    transform: translate(100px, 100px);/*Смещение по обеим осям*/
+}
+.item4:hover{
+    background-color: orange;
+    transform: scaleX(1.5);/*Маштабирование по оси Х*/
+}
+.item5:hover{
+    background-color: purple;
+    transform: scaleY(1.5);/*Маштабирование по оси Y*/
+}
+.item6:hover{
+    background-color: pink;
+    transform: scale(1.5, 1.5);/*Маштабирование по обеим осям*/
+}
+.item7:hover{
+    background-color: lightblue;
+    transform: rotate(45deg);/*поворот на 45 градусов*/
+}
+.item8:hover{
+    background-color: lightcoral;
+    transform: skewX(20deg);/*наклон по оси Х*/
+}
+.item9:hover{
+    background-color: lightgoldenrodyellow;
+    transform: skewY(20deg);/*Наклон по оси Y*/
+}
+.item10:hover{
+    background-color: lightgrey;
+    transform: skew(20deg, 20deg);/*наклон по обеим осям */
+}
+.circle{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    border-radius: 50%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: circle-animation 5s linear infinite; /*Анимация вращения круга*/
+}
+.circle p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+}
+.circle p::before{
+    content: '"';
+    font-size: 32px;
+    color: green;
+    margin-right: 10px;
+}
+.circle p::after{
+    content: '"';
+    font-size: 32px;
+    color: green;
+    margin-left: 10px;
+    position: absolute;
+    top: 20px;
+}
+@keyframes circle-animation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

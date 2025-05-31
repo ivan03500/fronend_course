@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1{
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.div2{
+    width: 20%;
+    height: 250px;
+    background-color: blanchedalmond;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.div3{
+    width: 60%;
+    height: 250px;
+    background-color: white;
+    padding-left: 80px;
+    padding-top: 50px;
+    margin-left: 20%;
+
+    margin-top: -250px;
+}
+.div4{
+    width: 20%;
+    height: 250px;
+    background-color: blanchedalmond;
+    padding-left: 80px;
+    padding-top: 50px;
+    margin-left: 80%;
+    margin-top: -250px;
+}
+.div5{
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    padding-left: 20px;
+    padding-top: 10px;
+}

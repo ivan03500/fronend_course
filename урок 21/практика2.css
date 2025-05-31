@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkslategray;
+}
+.h1{
+    text-decoration: underline;
+    font-family: monospace;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 300px;
+}
+.image
+{
+    width: 800px;
+    height: 400px;
+    background-color: gray;
+    
+}
+.other{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+.content{
+    position: relative;
+    left: 1600px;
+    font-size: 25px;
+
+}
+.content a{
+    color: white;
+    text-decoration: none;
+}
+.content a:hover{
+    text-decoration: underline;
+}
+.text{
+    position: relative;
+    right: 200px;
+}
+.text h3{
+    font-size: 40px;
+    color: white;
+}
+.text p{
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+}
